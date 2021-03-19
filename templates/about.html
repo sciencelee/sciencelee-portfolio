@@ -1,18 +1,132 @@
 {% extends "layout.html" %}
-{% set active_page = "about" %}
 
 {% block title %}
-    about
+    About Me
 {% endblock %}
 
 {% block main %}
 
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-auto">
-                <h3>{{ greeting }}</h3>
+    <section class="home-content">
+        <div class="row portfolio-row justify-content-center">
+            <div class="col-md-5">
+                <div class="text-center">
+
+                    <h2 class="about-header">My learning path</h2>
+
+                </div>
             </div>
         </div>
-    </div>
+        <div class="timeline">
+            <div class="container-timeline left">
+                <div class="content">
+                        <h2>20XX</h2>
+                            <p><a target="_blank" class="about-link" href="https://www.codecademy.com/learn/learn-python">Codecademy course</a>:
+                                What I did
+                            </p>
+                </div>
+            </div>
+            <div class="container-timeline right">
+                <div class="content">
+                        <h2>20XX</h2>
+                            <ul>
+                                <li>
+                                    <a target="_blank" class="about-link" href="https://www.edx.org/course/cs50s-introduction-to-computer-science">CS50's Intro to Computer Science</a>:
+                                    Maybe my teaching goes here C, HTML, CSS, JavaScript, Python and SQL.
+                                </li>
+                                <li>
+                                    <a target="_blank" class="about-link" href="https://dash.generalassemb.ly/">General Assembly's Dash</a>:
+                                    Web development course in HTML, CSS and JavaScript.
+                                </li>
+                                <li>
+                                    <a target="_blank" class="about-link" href="https://www.udacity.com/course/intro-to-data-science--ud359">Udacity's Intro to Data Science</a>:
+                                    Introduction to data wrangling, data analysis, data visualization Python.
+                                </li>
+                                <li>
+                                    <a target="_blank" class="about-link" href="https://www.udacity.com/course/data-wrangling-with-mongodb--ud032">Udacity's Data Wrangling with MongoDB</a>:
+                                    Other stuff: here.
+                                </li>
+                            </ul>
+
+                </div>
+            </div>
+            <div class="container-timeline left">
+                <div class="content">
+                        <h2>2019</h2>
+                            <ul>
+                                <li>
+                                    <a target="_blank" class="about-link" href="https://www.udacity.com/course/data-scientist-nanodegree--nd025">Udacity's Data Scientist Nanodegree</a>:
+                                    In 2019, this course also included <a target="_blank" class="about-link" href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t">
+                                    Udacity's Machine Learning Engineer Nanodegree</a>; Machine learning, deep learning, software
+                                    and data engineering, recommendation systems.
+                                </li>
+                                <li>
+                                    Data Science Basics seminar as part of my Master's degree: Introduction to supervised ML
+                                    and academic final project in time series forecasting.
+                                </li>
+                            </ul>
+                </div>
+            </div>
+            <div class="container-timeline right">
+                <div class="content">
+                        <h2>2020</h2>
+                            <p><a target="_blank" class="about-link" href="https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513">
+                                Udacity's Intro to Data Structures and Algorithms</a>:
+                                Course on different algorithms and data structures, incl. time- and space-efficiency,
+                                search and sort algorithms, maps, hashing, trees and list-based collections.
+                            </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row portfolio-row justify-content-center">
+            <div class="col-md-8">
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row about-row justify-content-center">
+            <div class="col-12 p-0 text-center">
+                    <h2 class="about-header">My skills:</h2>
+            </div>
+        </div>
+        <div class="row row-legend justify-content-center">
+            <div class="col-12 p-0 text-center">
+                <p>
+                    1 - Basic<span class="about-legend"></span>
+                    2 - Novice<span class="about-legend"></span>
+                    3 - Intermediate
+                </p>
+                <p class="m-0">
+                    4 - Advanced<span class="about-legend"></span>
+                    5 - Expert
+                </p>
+            </div>
+        </div>
+        <div class="row row-legend justify-content-center about-header">
+                Hover cursor over bars for more information
+        </div>
+        <div class="row about-row justify-content-center">
+            {% for topic, one_skill in skills %}
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="skill-cat text-center">
+                    <h5>{{ topic }}</h5>
+                </div>
+                <div class="row">
+                    {% for item in one_skill %}
+                    {% set level = item[1]/5*100 %}
+                    <div class="col-12 text-right">
+                        <p>{{ item[0] }} - {{ item[1] }}</p>
+                        <div class="skill-bar">
+                            <div class="skill-spec" style="width: {{ level }}%;">
+                            </div>
+                            <span class="tooltiptext">{{ item[2] }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
 
 {% endblock %}
