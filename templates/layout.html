@@ -27,7 +27,7 @@
         <meta name="robots" content="noindex">
 
         <title>Aaron Lee</title>
-        <link rel="icon" href="/static/images/chart-35773_640.png">
+        <link rel="icon" href="/static/images/icon.png">
 
         <!-- mobile first bootstrap -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,18 +71,23 @@
         <main class="container p-0">
             <section class="title-color" id="{{ id }}-title">
                 <div class="title-container">
-                    <div class="row title-text">
-                        <div class="col-12 col-sm-9 col-md-7 col-lg-6 additional-margin">
-                            <div class="title-description">
-                                <p>{{title_text}}</p>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="row title-text">
                         <div class="col-auto additional-margin">
                             <p>{{title}}</p>
                         </div>
                     </div>
+
+                    <div class="row title-text">
+                        <div class="col-12 col-sm-9 col-md-7 col-lg-6 additional-margin">
+                            <div class="title-description">
+                                {% for text in title_text %}
+                                    <p>{{text}}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 

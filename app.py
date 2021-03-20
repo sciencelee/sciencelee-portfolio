@@ -12,17 +12,21 @@ def index():
     return render_template('index.html',
                                 title_text=helper.messages['index'],
                                 title=helper.titles['index'],
-                                id="index")
+                                id="index",
+                                blog=helper.blog_posts[0],
+                                project=helper.projects[0]
+                                )
 
 
 @app.route('/portfolio', methods=['POST', 'GET'])
 def portfolio():
     # get the title content for the portfolio page
-    title_text = helper.titles['portfolio']
+    title_text = helper.messages['portfolio']
+    title = helper.titles['portfolio']
 
     return render_template('/portfolio.html',
                             title_text=title_text,
-                            title="PROJECT PORTFOLIO",
+                            title=title,
                             id="portfolio",
                             projects=helper.projects,)
 
@@ -30,14 +34,14 @@ def portfolio():
 @app.route('/about', methods=['POST', 'GET'])
 def about():
     # default language if user enters about without language preference in url
-    title_text = helper.about_title_text
-
+    title_text = helper.messages['about']
+    title = helper.titles['about']
     skills = helper.skills
 
     return render_template('/about.html',
                             title_text=title_text,
                             skills=skills,
-                            title="ABOUT ME",
+                            title=title,
                             id="about")
 
 

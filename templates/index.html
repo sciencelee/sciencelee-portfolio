@@ -20,14 +20,14 @@
 
                         </div>
                     </div>
+{#                    <div class="row justify-content-center">#}
+{#                        <div class="row index-img text-center">#}
+{#                            <h6>{{ project[0] }}</h6>#}
+{#                        </div>#}
+{#                    </div>#}
                     <div class="row justify-content-center">
-                        <div class="row index-img text-center">
-                            <h6>Title of project</h6>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <a target="_blank" href="https://chicago-rlc.herokuapp.com/">
-                            <img class="portfolio-img" src="/static/img/image1.png">
+                        <a target="_blank" href="{{ project[1] }}">
+                            <img class="portfolio-img" src="{{ project[2] }}">
                         </a>
                     </div>
                     <div class="index-bottom text-center">
@@ -45,25 +45,20 @@
                             <h2 class="index-header">My latest blog post</h2>
                         </div>
                     </div>
+{#                    <div class="row justify-content-center">#}
+{#                        <div class="row index-img text-center">#}
+{#                            <!-- this is my blog title passed through -->#}
+{#                            <h6> {{  blog[0] }} </h6>#}
+{#                        </div>#}
+{#                    </div>#}
                     <div class="row justify-content-center">
-                        <div class="row index-img text-center">
-                            <!-- <h6>Udacity's Intro to Data Structures and Algorithms</h6> -->
-                            <h6>Title of blog post</h6>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- <a target="_blank" href="https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513">
-                            <img class="portfolio-img" src="/static/img/udacity.png">
-                        </a> -->
-                        <a target="_blank" href="https://towardsdatascience.com/chicago-red-light-cameras-and-traffic-safety-a6c5f08e5c4">
-                            <img class="portfolio-img" src="/static/images/image2.png">
+                        <a target="_blank" href={{ blog[1] }}>
+                            <img class="portfolio-img" src="{{  blog[2] }}">
                         </a>
                     </div>
                     <div class="index-bottom text-center">
                         <p>
-
                             And <a target="_blank" class="about-link" href="https://medium.com/@sciencelee">Go here</a> to see more blog posts.
-
                         </p>
                     </div>
                 </div>
