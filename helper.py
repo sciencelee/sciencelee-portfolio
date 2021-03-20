@@ -9,7 +9,9 @@ titles = {'portfolio': 'Data Science Portfolio',
           }
 messages = {'portfolio': ['Featured below are some of my recent Data Science projects.',
                           'The skills for each project are noted in the descriptions'],
-          'about': ['I am a Data Scientist and Navy veteran who is passionate about STEM eduction and youth robotics mentorship.', 'See how I got here, and what skills I can bring to your business.'],
+          'about': ['I am a Data Scientist and Navy veteran who is passionate about STEM education and youth robotics mentorship.',
+                    "As an experienced high school teacher communicating difficult material is my specialty.",
+                    "See how I got here, and what skills I can bring to your business."],
           'index': ["I am a Data Scientist with skills for most data projects: pre-processing, application of statistical methods, data visualization and results communication."],
           }
 
