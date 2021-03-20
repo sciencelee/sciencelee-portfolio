@@ -32,7 +32,7 @@ projects = [['Chicago Red Light Camera Accident Study',
                 to build predictive and inferential models.'''],
 
             ['Red Light Camera Web App with Plotly Dash',
-                'https://github.com/sciencelee/Red-Light-Camera-Dash-webapp',
+                'https://chicago-rlc.herokuapp.com/',
                 'static/images/RLC_webapp.png',
                 '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualization 
                 in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.'''],
