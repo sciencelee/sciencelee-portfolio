@@ -59,8 +59,8 @@ projects = [['Chicago Red Light Camera Accident Study',
             ['King County Housing Model',
                 'https://github.com/sciencelee/seattle-housing-model',
                 'static/images/king_project.png',
-                '''Significant feature engineering including addition of school districts, view features, and proximity
-                to mapped locations.  Linear Regression model created with only 5 features and an r2 score of 0.70.'''],
+                '''Significant feature engineering including addition of school districts and other proximity features
+                to mapped locations.  A linear Regression model created with only 5 features and an r2 score of 0.70'''],
             ]
 
 
