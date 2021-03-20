@@ -31,7 +31,7 @@ projects = [['Chicago Red Light Camera Accident Study',
                 builds into a single SQLite database.  Features t-tests, Logistic Regression, Linear Regression, and Random Forest
                 to build predictive and inferential models.'''],
 
-            ['Red Light Camera Web App with Plotly Dash',
+            ['Red Light Camera Web App (Plotly Dash)',
                 'https://chicago-rlc.herokuapp.com/',
                 'static/images/RLC_webapp.png',
                 '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualization 
