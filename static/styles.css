@@ -29,7 +29,7 @@
 
 #index-nav-link:hover, #index-btn-lang
 {
-    background-color: #71A0C6
+    background-color: #f4f5f6
 ;
 }
 
@@ -59,12 +59,12 @@
 
 #portfolio-title
 {
-    background-color: #71A0C6;
+    background-color: #1e5d90;
 }
 
 #about-title
 {
-    background-color: #71A0C6;
+    background-color: #6895bb;
 }
 
 .container
@@ -138,7 +138,7 @@
 .index-link:hover
 {
     text-decoration: none;
-    color: #71A0C6;
+    color: #ffffff;
 }
 
 .index-img
