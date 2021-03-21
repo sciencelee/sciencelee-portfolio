@@ -22,6 +22,12 @@
 ;
 }
 
+#arcade-navbarbrand
+{
+    color: #44a3ef
+;
+}
+
 #about-navbarbrand
 {
     color: #1261A0;
@@ -61,6 +67,11 @@
 #portfolio-title
 {
     background-color: #237bc4;
+}
+
+#arcade-title
+{
+    background-color: #1f5d92;
 }
 
 #about-title

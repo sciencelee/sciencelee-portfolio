@@ -18,17 +18,7 @@ def index():
                                 )
 
 
-@app.route('/portfolio', methods=['POST', 'GET'])
-def portfolio():
-    # get the title content for the portfolio page
-    title_text = helper.messages['portfolio']
-    title = helper.titles['portfolio']
 
-    return render_template('/portfolio.html',
-                            title_text=title_text,
-                            title=title,
-                            id="portfolio",
-                            projects=helper.projects,)
 
 
 @app.route('/about', methods=['POST', 'GET'])
@@ -44,6 +34,31 @@ def about():
                             title=title,
                             id="about")
 
+
+@app.route('/portfolio', methods=['POST', 'GET'])
+def portfolio():
+    # get the title content for the portfolio page
+    title_text = helper.messages['portfolio']
+    title = helper.titles['portfolio']
+
+    return render_template('/portfolio.html',
+                            title_text=title_text,
+                            title=title,
+                            id="portfolio",
+                            projects=helper.projects,)
+
+
+@app.route('/arcade', methods=['POST', 'GET'])
+def arcade():
+    # default language if user enters about without language preference in url
+    title_text = helper.messages['arcade']
+    title = helper.titles['arcade']
+
+    return render_template('/arcade.html',
+                            title_text=title_text,
+                            title=title,
+                            projects=helper.games,
+                            id="arcade")
 
 
 @app.route("/robots.txt")
