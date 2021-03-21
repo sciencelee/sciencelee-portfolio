@@ -76,7 +76,7 @@ games = [['Blasteroids',
                 'static/images/blasteroids.png',
                 '''Fun "Asteroids" style shooter with a few twists.  
                 Made with primitive shapes and lots of classes and trigonometry.  
-                The physics with the force shield make this a blast to play.  I love this game.
+                The physics with the force shield make this a blast to play.  I love this game.  Takes about 10 seconds to load.
                  '''],
 
          ['Word Jumble',
@@ -85,8 +85,8 @@ games = [['Blasteroids',
           '''"Boggle" style word game.  
           Spell as many words as you can in the time limit from the available letters.
           Earn bonus points and time for big scrabble score words.
-          This project uses only Python lists for all dictionary lookups. 
-          Warning: can be addictive!
+          This project features a binary dictionary lookup, and a lot of debugging and tuning. 
+          Warning: can be addictive!  May take a few seconds to load.
            '''],
          ]
 
