@@ -46,7 +46,7 @@ projects = [['Chicago Red Light Camera Accident Study',
             ['X-ray classification web app',
                 'https://xray-pred.herokuapp.com/',
                 'static/images/xray_webapp.png',
-                '''Flask web application that classifies user loaded image using an h5 stored CNN model and hosted on Heroku.'''],
+                '''Flask web application that classifies user loaded image using an h5 stored CNN model hosted on Heroku.'''],
 
             ['Chain Store Voting Habits',
                 'https://github.com/sciencelee/chainstore-election-model',
