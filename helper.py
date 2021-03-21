@@ -28,8 +28,8 @@ blog_posts = [['Do Red Light Cameras Make Intersections Safe?',
 projects = [['Chicago Red Light Camera Accident Study',
                 'https://github.com/sciencelee/chicago_rlc',
                 'static/images/rlc_project.png',
-                '''Significant data engineering project which combines data from more than a dozen different sources and
-                builds into a single SQLite database.  Features t-tests, Logistic Regression, Linear Regression, and Random Forest
+                '''Significant data engineering project which combines data from more nine different sources and
+                builds them into a single SQLite database.  Features t-tests, Logistic Regression, Linear Regression, and Random Forest
                 to build predictive and inferential models.'''],
 
             ['Red Light Camera Web App (Plotly Dash)',
