@@ -76,6 +76,7 @@ games = [['Blasteroids',
                 'static/images/blasteroids.png',
                 '''Fun "Asteroids" style shooter with a few twists.  
                 Made with primitive shapes and lots of classes and trigonometry.  
+                I aimed for fast processing and low resources on this game.
                 The physics with the force shield make this a blast to play.  I love this game.  Takes about 10 seconds to load.
                  '''],
 
@@ -88,6 +89,15 @@ games = [['Blasteroids',
           This project features a binary dictionary lookup, and a lot of debugging and tuning. 
           Warning: can be addictive!  May take a few seconds to load.
            '''],
+
+    ['Missile Defense',
+          'https://sciencelee.trinket.io/sites/mirv',
+          'static/images/mirv.png',
+          '''"Missile Command" style defense game.  
+          I made this during first full year as a CS teacher, and set it up as a Raspberry Pi arcade game in my classroom.
+          This game gets wild pretty quickly.
+           '''],
+
          ]
 
 
