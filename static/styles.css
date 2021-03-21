@@ -35,7 +35,8 @@
 
 #portfolio-nav-link:hover, #portfolio-btn-lang
 {
-    background-color: #71A0C6;
+    /*background-color: #71A0C6;*/
+    color: black;
 }
 
 #about-nav-link:hover, #about-btn-lang
@@ -171,8 +172,8 @@
 .col-md-5
 {
     padding: 10px 10px 10px 10px;
-    margin: 30px 30px 30px 30px;
-    background: ghostwhite;
+    margin: 50px 50px 50px 50px;
+    background: #FDFDFD;
 }
 
 .project-des
@@ -194,9 +195,10 @@
 
 .portfolio-img
 {
-    width: 70%;
+    width: 90%;
     border: 3px solid rgba(0,0,0,0.5);
-    margin: 0% 15% 5%;
+    margin: 0% 5% 5%;
+    /*left/right margins need to complement width*/
     vertical-align: middle;
     background: white;
 }
@@ -519,4 +521,9 @@ footer
 .source
 {
     font-style: italic;
+}
+
+.bg-light
+{
+    background-color: white !important;
 }
