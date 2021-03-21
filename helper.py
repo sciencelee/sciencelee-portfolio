@@ -13,8 +13,8 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
           'about': ['I am a Data Scientist and Navy veteran who is passionate about STEM education and youth robotics mentorship.',
                     "See how I got here, and what skills I can bring to your business."],
           'index': ["I am a Data Scientist with skills for most data projects: pre-processing, application of statistical methods, data visualization and results communication."],
-          'arcade': ['I taught my students Python by making games with the Pygame library.',
-                     'Each semester, during finals, I would make my own gaming project alongside my students.',
+          'arcade': ['I taught Python to high school students through game making with the Pygame library.',
+                     'Each year I taught, I would make my own gaming project alongside my students.',
                      'These games are some of the results.  Have fun!']
           }
 
