@@ -106,7 +106,7 @@ games = [['Blasteroids',
 
 about_title_text = "About title text"
 skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, level, years
-                                     ['C++', 3, '7+ years'],
+                                     ['C++', 2, '7+ years'],
                                      ['JavaScript', 2, '2 years'],
                                      ['Java', 1, '2 years'],
                                      ] ],
