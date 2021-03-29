@@ -1,8 +1,6 @@
 <!doctype html>
 
-<!-- template from JuliaNikulski towarddatascience article https://github.com/julianikulski/portfolio-website -->
-
-
+<!-- base template modified from JuliaNikulski towarddatascience article https://github.com/julianikulski/portfolio-website -->
 
 <html lang="en">
 
@@ -22,6 +20,9 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+
+        {#        github widget#}
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
         <!-- Disallow crawlers to index this website -->
         <meta name="robots" content="noindex">
@@ -67,7 +68,7 @@
                         <a class="nav-link" id="{{ id }}-nav-link" href="/portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a target="_blank" class="nav-link" id="{{ id }}-nav-link" href="https://medium.com/@sciencelee">Blog</a>
+                        <a target="_blank" class="nav-link" id="{{ id }}-nav-link" href="/blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="{{ id }}-nav-link" href="/about">About Me</a>
@@ -81,7 +82,7 @@
                         <a target="_blank" class="nav-link" id="{{ id }}-nav-link" href="https://github.com/sciencelee">GitHub</a>
                     </li>
                     <li class="nav-item">
-                        <a target="_blank" class="nav-link" id="{{ id }}-nav-link" href="https://www.linkedin.com/in/aaron-lee-5a6bb013/">LinkedIn</a>
+                        <a target="_blank" class="nav-link" id="{{ id }}-nav-link" href="https://www.linkedin.com/in/aaron-lee-data/">LinkedIn</a>
                     </li>
                 </ul>
             </div>
@@ -90,7 +91,6 @@
         <main class="container p-0">
             <section class="title-color" id="{{ id }}-title">
                 <div class="title-container">
-
                     <div class="row title-text">
                         <div class="col-auto additional-margin">
                             <p>{{title}}</p>
@@ -106,7 +106,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
 

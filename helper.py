@@ -6,7 +6,8 @@
 titles = {'portfolio': 'Data Science Portfolio',
           'about': 'More About Me',
           'index': "Hello, I'm Aaron Lee",
-          'arcade': "My Arcade"
+          'arcade': "My Arcade",
+          'blog': 'My Blog'
           }
 messages = {'portfolio': ['Featured below are some of my recent Data Science projects.',
                           'The skills for each project are noted in the descriptions'],
@@ -15,17 +16,40 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
           'index': ["I am a Data Scientist with skills for most data projects: pre-processing, application of statistical methods, data visualization and results communication."],
           'arcade': ['I taught Python to high school students, and the vehicle I used was game making with the Pygame library.',
                      'Each semester, I made a gaming project right alongside my students.',
-                     'Below, are a few examples of my games.  Enjoy!']
+                     'Below, are a few examples of my games.  Enjoy!'],
+           'blog': ['As a teacher, I enjoy reading and writing tutorial blogs.',
+                    "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding')]
           }
 
 # latest projects
 # each article [title, address, image]
-blog_posts = [['Do Red Light Cameras Make Intersections Safe?',
+blog_posts = [['Do Traffic Cameras Make Intersections Safe?',
                'https://towardsdatascience.com/chicago-red-light-cameras-and-traffic-safety-a6c5f08e5c4',
-               'static/images/rlc_blog.png'],
-              ['Do Red Light Cameras Make Intersections Safe?',
-               'https://towardsdatascience.com/chicago-red-light-cameras-and-traffic-safety-a6c5f08e5c4',
-               'static/images/rlc_blog.png'],
+               'static/images/rlc_blog.png', 'Towards Data Science'],
+              ['Making Plots With Pandas Groupby',
+               'https://python.plainenglish.io/making-plots-with-the-pandas-groupby-ac492941af28',
+               'static/images/groupby_blog.png', 'Python in Plain English'],
+              ['Deploying a Predictive Model with Flask',
+               'https://levelup.gitconnected.com/deploy-a-predictive-model-with-flask-33c1976293cc',
+               'static/images/deploy_flask.png', 'Level Up Coding'],
+            ['Make a PySpark Session in Google Colab',
+               'https://sciencelee.medium.com/using-pyspark-with-google-colab-8bca09c11f91',
+               'static/images/pyspark_blog.png', 'Medium'],
+            ['Chain Store Election Modeling',
+               'https://towardsdatascience.com/are-you-a-trader-joes-democrat-or-a-walmart-republican-a7b156131435',
+               'static/images/election_blog.png', 'Towards Data Science'],
+            ['Folium Maps for Housing Data',
+               'https://levelup.gitconnected.com/visualizing-housing-data-with-folium-maps-4718ed3452c2',
+               'static/images/folium_blog.png', 'Level Up Coding'],
+            ['Boruta Feature Selection',
+               'https://towardsdatascience.com/simple-example-using-boruta-feature-selection-in-python-8b96925d5d7a',
+               'static/images/boruta_blog.png', 'Towards Data Science'],
+            ['USGS Earthquake Plot with Folium',
+               'https://levelup.gitconnected.com/plotting-usgs-earthquake-data-with-folium-8f11ddc21950',
+               'static/images/earthquake_blog.png', 'Level Up Coding'],
+            ['Multivariate Linear Regression',
+               'https://medium.com/swlh/multivariable-linear-regression-basics-62425ac4eafa',
+               'static/images/linreg_blog.png', 'The Startup'],
               ]
 
 # each project [title, address, image, whet2lookfor]
@@ -36,17 +60,17 @@ projects = [['Chicago Red Light Camera Accident Study',
                 builds them into a single SQLite database.  Features t-tests, Logistic Regression, Linear Regression, and Random Forest
                 to build predictive and inferential models.'''],
 
+            ['Pediatric X-ray classification',
+                'https://github.com/sciencelee/xray-pneumonia-ML',
+                'static/images/xray_project.png',
+                '''Convolutional Neural Network to predict presence of pneumonia at >98% accuracy.  Model runs in google colab.'''],
+
             ['Red Light Camera Web App (Plotly Dash)',
                 'https://rlc.sciencelee.com/',
                 'static/images/RLC_webapp.png',
                 '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualizations 
                 in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.  Explore 150+ intersections and
                 more than 8,000 red light crashes in an easy to use map.'''],
-
-            ['Pediatric X-ray classification',
-                'https://github.com/sciencelee/xray-pneumonia-ML',
-                'static/images/xray_project.png',
-                '''Convolutional Neural Network to predict presence of pneumonia at >98% accuracy.  Model runs in google colab.'''],
 
             ['X-ray classification web app',
                 'https://xray.sciencelee.com/',
@@ -67,6 +91,11 @@ projects = [['Chicago Red Light Camera Accident Study',
                 'static/images/king_project.png',
                 '''Significant feature engineering including addition of school districts and other proximity features
                 to mapped locations.  A linear Regression model created with only 5 features and an r2 score of 0.70'''],
+
+            ['Twitter Sentiment Evaluator',
+                'https://github.com/sciencelee/twitter-sentiment-evaluator',
+                'static/images/twitter_project.png',
+                '''Features Natural Language Processing with nltk, GloVe vectors, and a data set of labeled twitter reviews on Apple and Google Products'''],
             ]
 
 
@@ -106,8 +135,8 @@ games = [['Blasteroids',
 
 about_title_text = "About title text"
 skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, level, years
-                                     ['C++', 2, '7+ years'],
-                                     ['JavaScript', 2, '2 years'],
+                                     ['C++', 1, '7+ years'],
+                                     ['JavaScript', 1, '2 years'],
                                      ['Java', 1, '2 years'],
                                      ] ],
             ["Data Analysis", [['Data Wrangling', 4, 'Pandas, NumPy, SQL'],  # language, level, years
@@ -124,8 +153,8 @@ skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, lev
              ],
 
             ["Machine Learning", [['Supervised', 4, 'Classification, Regression, sklearn, statsmodel'],  # language, level, years
-                                     ['Unsupervised', 3, 'CNN, K-means'],
-                                     ['Deep Learning', 1, 'TensorFlow'],
+                                     ['Unsupervised', 3, 'Clustering, PCA'],
+                                     ['Deep Learning', 2, 'CNN, RNN, TensorFlow'],
                                ]
              ],
 

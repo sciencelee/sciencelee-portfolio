@@ -13,8 +13,8 @@ def index():
                                 title_text=helper.messages['index'],
                                 title=helper.titles['index'],
                                 id="index",
-                                blog=helper.blog_posts[0],
-                                project=helper.projects[0]
+                                blog=helper.blog_posts,
+                                project=helper.projects
                                 )
 
 
@@ -46,6 +46,18 @@ def portfolio():
                             title=title,
                             id="portfolio",
                             projects=helper.projects,)
+
+@app.route('/blog', methods=['POST', 'GET'])
+def blog():
+    # get the title content for the portfolio page
+    title_text = helper.messages['blog']
+    title = helper.titles['blog']
+
+    return render_template('/blog.html',
+                            title_text=title_text,
+                            title=title,
+                            id="portfolio",  # used in css
+                            blogs=helper.blog_posts,)
 
 
 @app.route('/arcade', methods=['POST', 'GET'])
