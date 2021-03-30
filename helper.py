@@ -128,6 +128,13 @@ games = [['Blasteroids',
           This game gets wild pretty quickly.
            '''],
 
+    ['Tank Wars',
+          'https://sciencelee.trinket.io/sites/tank_wars',
+          'static/images/tanks.png',
+          '''"Two player tank battle.  
+          Head to head on the keyboard.  First to 10 wins.  Look out for lots of powerups!
+        '''],
+
          ]
 
 
