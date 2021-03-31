@@ -17,17 +17,7 @@ def index():
                                 project=helper.projects
                                 )
 
-@app.route('/', methods=['POST', 'GET'])
-@app.route('/', methods=['POST', 'GET'])
-def index():
-    # main page
-    return render_template('index.html',
-                                title_text=helper.messages['index'],
-                                title=helper.titles['index'],
-                                id="index",
-                                blog=helper.blog_posts,
-                                project=helper.projects
-                                )
+
 
 
 
