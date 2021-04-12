@@ -76,11 +76,13 @@ projects = [['Chicago Red Light Camera Accident Study',
                 more than 8,000 red light crashes in an easy to use map.'''],
 
             ['FIRST Tech Challenge Team Maps Web App (Plotly Dash)',
-                'https://toa-viz.herokuapp.com/',
+                'http://ftcapp.sciencelee.com//',
                 'static/images/ftc-app.png',
-                '''Uses API queries to pull data from The Orange Alliance (theorangealliance.com/api). Data visualizations 
-                in Plotly scatter_mapbox/geo_scatter/chorpletch inside Dash application hosted on Heroku.  Explore high score data for city, state, 
-                and country for over 3000 teams worldwide.'''],
+                '''I have coached robotics teams hundreds of robotics students since 2008.
+                One of the competitions I have coached is FIRST Tech Challenge (FTC).  
+                This dashboard web application uses API queries from The Orange Alliance (theorangealliance.com/api). 
+                Maps are made in Plotly scatter_mapbox/geo_scatter/chorpletch within a Dash application hosted on Heroku.  
+                Explore high score data for city, state, and country for over 3000 teams and 75k matches worldwide.'''],
 
             ['X-ray Classification Web App',
                 'https://xray.sciencelee.com/',
