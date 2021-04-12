@@ -75,7 +75,14 @@ projects = [['Chicago Red Light Camera Accident Study',
                 in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.  Explore 150+ intersections and
                 more than 8,000 red light crashes in an easy to use map.'''],
 
-            ['X-ray classification web app',
+            ['FIRST Tech Challenge Team Maps Web App (Plotly Dash)',
+                'https://toa-viz.herokuapp.com/',
+                'static/images/ftc-app.png',
+                '''Uses API queries to pull data from The Orange Alliance (theorangealliance.com/api). Data visualizations 
+                in Plotly scatter_mapbox/geo_scatter/chorpletch inside Dash application hosted on Heroku.  Explore high score data for city, state, 
+                and country for over 3000 teams worldwide.'''],
+
+            ['X-ray Classification Web App',
                 'https://xray.sciencelee.com/',
                 'static/images/xray_webapp.png',
                 '''Flask web application that classifies user loaded image using an h5 stored CNN model hosted on Heroku.'''],
