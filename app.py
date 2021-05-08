@@ -5,6 +5,7 @@ import os
 
 app = Flask(__name__)
 
+
 @app.route('/index', methods=['POST', 'GET'])
 @app.route('/', methods=['POST', 'GET'])
 def index():
@@ -71,6 +72,8 @@ def arcade():
                             title=title,
                             projects=helper.games,
                             id="arcade")
+
+
 
 
 @app.route("/robots.txt")

@@ -23,7 +23,14 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
 
 # latest projects
 # each article [title, address, image]
-blog_posts = [['Do Traffic Cameras Make Intersections Safe?',
+blog_posts = [
+            ['Painless Text Classification Using RNN',
+             'https://levelup.gitconnected.com/painless-classification-model-using-rnn-b90cb0982543',
+             'static/images/rnn_project.png', 'Level Up Coding'],
+            ['Choosing a Baseline Accuracy for a Classification Model',
+             'https://towardsdatascience.com/calculating-a-baseline-accuracy-for-a-classification-model-a4b342ceb88f#30fd-8213094caad9',
+             'static/images/baseline_blog.png', 'Towards Data Science'],
+            ['Do Traffic Cameras Make Intersections Safe?',
                'https://towardsdatascience.com/chicago-red-light-cameras-and-traffic-safety-a6c5f08e5c4',
                'static/images/rlc_blog.png', 'Towards Data Science'],
             ['Simple Geocoding in Python',
@@ -59,9 +66,7 @@ blog_posts = [['Do Traffic Cameras Make Intersections Safe?',
 projects = [['Chicago Red Light Camera Accident Study',
                 'https://github.com/sciencelee/chicago_rlc',
                 'static/images/rlc_project.png',
-                '''Significant data engineering project which combines data from more nine different sources and
-                builds them into a single SQLite database.  Features t-tests, Logistic Regression, Linear Regression, and Random Forest
-                to build predictive and inferential models.'''],
+                '''Significant data engineering project which combines data from more nine different sources and builds them into a single SQLite database.  Features t-tests, Logistic Regression, Linear Regression, and Random Forest to build predictive and inferential models.'''],
 
             ['Pediatric X-ray classification',
                 'https://github.com/sciencelee/xray-pneumonia-ML',
@@ -71,9 +76,7 @@ projects = [['Chicago Red Light Camera Accident Study',
             ['Red Light Camera Web App (Plotly Dash)',
                 'https://rlc.sciencelee.com/',
                 'static/images/RLC_webapp.png',
-                '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualizations 
-                in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.  Explore 150+ intersections and
-                more than 8,000 red light crashes in an easy to use map.'''],
+                '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualizations in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.  Explore 150+ intersections and more than 8,000 red light crashes in an easy to use map.'''],
 
             ['FIRST Tech Challenge Team Maps Web App (Plotly Dash)',
                 'http://ftcapp.sciencelee.com//',
