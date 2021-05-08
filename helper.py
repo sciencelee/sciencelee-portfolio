@@ -27,7 +27,7 @@ blog_posts = [
             ['Painless Text Classification Using RNN',
              'https://levelup.gitconnected.com/painless-classification-model-using-rnn-b90cb0982543',
              'static/images/rnn_project.png', 'Level Up Coding'],
-            ['Choosing a Baseline Accuracy for a Classification Model',
+            ['Choosing a Baseline Accuracy',
              'https://towardsdatascience.com/calculating-a-baseline-accuracy-for-a-classification-model-a4b342ceb88f#30fd-8213094caad9',
              'static/images/baseline_blog.png', 'Towards Data Science'],
             ['Do Traffic Cameras Make Intersections Safe?',
