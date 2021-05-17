@@ -13,7 +13,7 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
                           'The skills for each project are noted in the descriptions'],
           'about': ['I am a Data Scientist and Navy veteran who is passionate about STEM education and youth robotics mentorship.',
                     "See how I got here, and what skills I can bring to your business."],
-          'index': ["I am a Data Scientist with skills for most data projects: pre-processing, application of statistical methods, data visualization and results communication."],
+          'index': ["I am a creative and curious Data Scientist with expertise in data acquisition, data modeling, statistical analysis, machine learning, deep learning, and NLP. With a background as a Naval Officer, STEM teacher, and robotics coach, I bring strong skills in team building and project management, and can confidently communicate complex subject matter with a broad audience."],
           'arcade': ['I taught Python to high school students, and the vehicle I used was game making with the Pygame library.',
                      'Each semester, I made a gaming project right alongside my students.',
                      'Below, are a few examples of my games.  Enjoy!'],
