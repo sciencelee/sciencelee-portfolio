@@ -13,7 +13,7 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
                           'The skills for each project are noted in the descriptions'],
           'about': ['I am a Data Scientist and Navy veteran who is passionate about STEM education and youth robotics mentorship.',
                     "See how I got here, and what skills I can bring to your business."],
-          'index': ["I am a creative and curious Data Scientist with expertise in data acquisition, data modeling, statistical analysis, machine learning, deep learning, and NLP. With a background as a Naval Officer, STEM teacher, and robotics coach, I bring strong skills in team building and project management, and can confidently communicate complex subject matter with a broad audience."],
+          'index': ["I am a creative and curious Data Scientist with expertise in data acquisition, data modeling, statistical analysis, machine learning, deep learning, and NLP."],
           'arcade': ['I taught Python to high school students, and the vehicle I used was game making with the Pygame library.',
                      'Each semester, I made a gaming project right alongside my students.',
                      'Below, are a few examples of my games.  Enjoy!'],
@@ -168,15 +168,15 @@ skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, lev
              ],
 
             ["Software Engineering", [['Front End', 3, 'HTML, CSS, JavaScript'],  # language, level, years
-                                     ['Frameworks', 2, 'Flask, Dash, Jinja'],
-                                     ['Database', 3, 'SQLite, MongoDB'],
+                                     ['Frameworks', 2, 'Flask, Dash'],
+                                     ['Database', 3, 'SQLite, MongoDB, PostgreSQL'],
                                      ['Deployment', 2, 'Heroku, Python-Anywhere, Twilio'],
                                ]
              ],
 
             ["Machine Learning", [['Supervised', 4, 'Classification, Regression, sklearn, statsmodel'],  # language, level, years
                                      ['Unsupervised', 3, 'Clustering, PCA'],
-                                     ['Deep Learning', 2, 'CNN, RNN, TensorFlow'],
+                                     ['Deep Learning', 2, 'CNN, RNN, TensorFlow', 'PyTorch'],
                                ]
              ],
 
