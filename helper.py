@@ -60,6 +60,9 @@ blog_posts = [
             ['Multivariate Linear Regression',
                'https://medium.com/swlh/multivariable-linear-regression-basics-62425ac4eafa',
                'static/images/linreg_blog.png', 'The Startup'],
+            ['Python List Comprehensions',
+            'https://sciencelee.medium.com/list-comprehensions-for-beginners-fc4998991419?sk=c0359b92c9ead0f75f6fe8f7808af08e',
+             'static/images/comprehension_blog.png', 'Medium'],
               ]
 
 # each project [title, address, image, whet2lookfor]
