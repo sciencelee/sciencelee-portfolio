@@ -21,9 +21,10 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
            'blog': ['As a teacher, I enjoy reading and writing tutorial blogs.',
                     "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')],
            'apps': ['This website was made using Python and Flask.',
-                      'I chose to make companion webapps for selected data projects.  As a CS teacher, I taught Flask, '
+                      'I also chose to make companion webapps for selected data projects.  As a CS teacher, I taught Flask, '
                       'Twilio, Heroku, and Kivy for deployment of small apps. I also mentored students in development of '
-                      'web apps for robotics using Android Studio.'
+                      'web apps for robotics using Android Studio.  Though not a developer, I have a good feel for the structure '
+                      'and flow of an app, and hope to continue learning app development going forward.'
                       ]
           }
 
