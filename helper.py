@@ -147,6 +147,15 @@ apps = [
                 'static/images/xray_webapp.png',
                 '''Flask web application that classifies user loaded image using an h5 stored CNN model hosted on Heroku.'''],
 
+            ['This Portfolio Website! (Flask and Bootstrap CSS)'
+              'https://www.sciencelee.com/apps',
+              'static/images/website.png',
+              '''I have been teaching students to make small Flask web apps for three years,
+              so I decided to make my website portfolio using the same methods.
+              I used a template and Jinja notation to display info fed in from a static Python file.
+              Using Bootstrap and custom CSS, I wanted to give it a simple and consistent look that was easy to update.
+              '''
+             ]
           ]
 
 # Arcade games
