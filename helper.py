@@ -127,25 +127,25 @@ games = [['Blasteroids',
                 'https://sciencelee.trinket.io/sites/sciencelee-blasteroids',
                 'static/images/blasteroids.png',
                 '''Fun "Asteroids" style shooter with a few twists.  
-                Made with primitive shapes and lots of classes and trigonometry.  
-                I aimed for fast processing and low resources on this game.
+                I'm proud of this one because it is made entirely with primitive shapes and trigonometry.
+                I aimed for fast processing and low resources on this game and was able to keep it at 60fps during gameplay.
                 The physics with the force shield make this a blast to play.  I love this game.  Takes about 10 seconds to load.
                  '''],
 
          ['Word Jumble',
           'https://sciencelee.trinket.io/sites/word-jumble',
           'static/images/word_jumble.png',
-          '''"Boggle" style word game.  
+          '''"Boggle" style word game using the keyboard.
           Spell as many words as you can in the time limit from the available letters.
           Earn bonus points and time for big scrabble score words.
           This project features a binary dictionary lookup, and a lot of debugging and tuning. 
-          Warning: can be addictive!  May take a few seconds to load.
+          Warning: can be addictive!  May take about 10 seconds to load.
            '''],
 
     ['Missile Defense',
           'https://sciencelee.trinket.io/sites/mirv',
           'static/images/mirv.png',
-          '''"Missile Command" style defense game.  
+          '''"Missile Command" style defense game using mouse or mobile.
           I made this during first full year as a CS teacher, and set it up as a Raspberry Pi arcade game in my classroom.
           This game gets wild pretty quickly.
            '''],
@@ -153,7 +153,7 @@ games = [['Blasteroids',
     ['Tank Wars',
           'https://sciencelee.trinket.io/sites/tank_wars',
           'static/images/tanks.png',
-          '''"Two player tank battle.  
+          '''"Two player tank battle using keyboard.
           Head to head on the keyboard.  First to 10 wins.  Look out for lots of powerups!
         '''],
 
