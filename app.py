@@ -48,6 +48,18 @@ def portfolio():
                             id="portfolio",
                             projects=helper.projects,)
 
+@app.route('/apps', methods=['POST', 'GET'])
+def dashboards():
+    # get the title content for the portfolio page
+    title_text = helper.messages['apps']
+    title = helper.titles['apps']
+
+    return render_template('/apps.html',
+                            title_text=title_text,
+                            title=title,
+                            id="portfolio",
+                            projects=helper.apps,) # dictionary grab from module
+
 @app.route('/blog', methods=['POST', 'GET'])
 def blog():
     # get the title content for the portfolio page

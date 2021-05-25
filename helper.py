@@ -7,7 +7,8 @@ titles = {'portfolio': 'Data Science Portfolio',
           'about': 'More About Me',
           'index': "Hello, I'm Aaron Lee",
           'arcade': "My Arcade",
-          'blog': 'My Blog'
+          'blog': 'My Blog',
+          'apps': 'Web Apps and Dashboards'
           }
 messages = {'portfolio': ['Featured below are some of my recent Data Science projects.',
                           'The skills for each project are noted in the descriptions'],
@@ -18,7 +19,12 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
                      'Each semester, I made a gaming project right alongside my students.',
                      'Below, are a few examples of my games.  Enjoy!'],
            'blog': ['As a teacher, I enjoy reading and writing tutorial blogs.',
-                    "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')]
+                    "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')],
+           'apps': ['This website was made using Python and Flask.',
+                      'I chose to make companion webapps for selected data projects.  As a CS teacher, I taught Flask, '
+                      'Twilio, Heroku, and Kivy for deployment of small apps. I also mentored students in development of '
+                      'web apps for robotics using Android Studio.'
+                      ]
           }
 
 # latest projects
@@ -120,7 +126,28 @@ projects = [['Chicago Red Light Camera Accident Study',
                 '''Features Natural Language Processing with nltk, GloVe vectors, and a data set of labeled twitter reviews on Apple and Google Products'''],
             ]
 
+# each project [title, address, image, whet2lookfor]
+apps = [
+            ['Red Light Camera Web App (Plotly Dash)',
+                'https://rlc.sciencelee.com/',
+                'static/images/RLC_webapp.png',
+                '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualizations in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.  Explore 150+ intersections and more than 8,000 red light crashes in an easy to use map.'''],
 
+            ['FIRST Tech Challenge Team Maps Web App (Plotly Dash)',
+                'http://ftcapp.sciencelee.com//',
+                'static/images/ftc-app.png',
+                '''I have coached robotics teams hundreds of robotics students since 2008.
+                One of the competitions I have coached is FIRST Tech Challenge (FTC).  
+                This dashboard web application uses API queries from The Orange Alliance (theorangealliance.com/api). 
+                Maps are made in Plotly scatter_mapbox/geo_scatter/chorpletch within a Dash application hosted on Heroku.  
+                Explore high score data for city, state, and country for over 3000 teams and 75k matches worldwide.'''],
+
+            ['X-ray Classification Web App (Flask)',
+                'https://xray.sciencelee.com/',
+                'static/images/xray_webapp.png',
+                '''Flask web application that classifies user loaded image using an h5 stored CNN model hosted on Heroku.'''],
+
+          ]
 
 # Arcade games
 games = [['Blasteroids',
