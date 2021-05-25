@@ -18,7 +18,7 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
                      'Each semester, I made a gaming project right alongside my students.',
                      'Below, are a few examples of my games.  Enjoy!'],
            'blog': ['As a teacher, I enjoy reading and writing tutorial blogs.',
-                    "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding')]
+                    "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')]
           }
 
 # latest projects
@@ -60,9 +60,13 @@ blog_posts = [
             ['Multivariate Linear Regression',
                'https://medium.com/swlh/multivariable-linear-regression-basics-62425ac4eafa',
                'static/images/linreg_blog.png', 'The Startup'],
-            ['Python List Comprehensions',
+            ['Python List Comprehension Essentials',
             'https://sciencelee.medium.com/list-comprehensions-for-beginners-fc4998991419?sk=c0359b92c9ead0f75f6fe8f7808af08e',
-             'static/images/comprehension_blog.png', 'Medium'],
+             'static/images/comprehension_blog.png', 'Level Up Coding'],
+
+            ['Python Sorting Essentials',
+             'https://levelup.gitconnected.com/sorting-in-python-using-keys-d2622edd7a92',
+             'static/images/sorting_blog.png', 'Level Up Coding'],
               ]
 
 # each project [title, address, image, whet2lookfor]
