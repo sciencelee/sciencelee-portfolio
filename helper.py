@@ -87,24 +87,6 @@ projects = [['Chicago Red Light Camera Accident Study',
                 'static/images/xray_project.png',
                 '''Convolutional Neural Network to predict presence of pneumonia at >98% accuracy.  Model runs in google colab.'''],
 
-            ['Red Light Camera Web App (Plotly Dash)',
-                'https://rlc.sciencelee.com/',
-                'static/images/RLC_webapp.png',
-                '''Uses API queries to pull live data from multiple databases on Chicago Data Portal. Data visualizations in Plotly line/scatter/mapbox inside Dash application hosted on Heroku.  Explore 150+ intersections and more than 8,000 red light crashes in an easy to use map.'''],
-
-            ['FIRST Tech Challenge Team Maps Web App (Plotly Dash)',
-                'http://ftcapp.sciencelee.com//',
-                'static/images/ftc-app.png',
-                '''I have coached robotics teams hundreds of robotics students since 2008.
-                One of the competitions I have coached is FIRST Tech Challenge (FTC).  
-                This dashboard web application uses API queries from The Orange Alliance (theorangealliance.com/api). 
-                Maps are made in Plotly scatter_mapbox/geo_scatter/chorpletch within a Dash application hosted on Heroku.  
-                Explore high score data for city, state, and country for over 3000 teams and 75k matches worldwide.'''],
-
-            ['X-ray Classification Web App',
-                'https://xray.sciencelee.com/',
-                'static/images/xray_webapp.png',
-                '''Flask web application that classifies user loaded image using an h5 stored CNN model hosted on Heroku.'''],
 
             ['Chain Store Voting Habits',
                 'https://github.com/sciencelee/chainstore-election-model',
