@@ -129,7 +129,7 @@ apps = [
                 'static/images/xray_webapp.png',
                 '''Flask web application that classifies user loaded image using an h5 stored CNN model hosted on Heroku.'''],
 
-            ['This Portfolio Website! (Flask and Bootstrap CSS)'
+            ['This Portfolio Website! (Flask and Bootstrap CSS)',
               'https://www.sciencelee.com/apps',
               'static/images/website.png',
               '''I have been teaching students to make small Flask web apps for three years,
