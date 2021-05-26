@@ -87,7 +87,6 @@ projects = [['Chicago Red Light Camera Accident Study',
                 'static/images/xray_project.png',
                 '''Convolutional Neural Network to predict presence of pneumonia at >98% accuracy.  Model runs in google colab.'''],
 
-
             ['Chain Store Voting Habits',
                 'https://github.com/sciencelee/chainstore-election-model',
                 'static/images/vote_project.png',
