@@ -21,7 +21,8 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
            'blog': ['As a teacher, I enjoy reading and writing tutorial blogs.',
                     "I write for four different publications on Medium, including, '{}', '{}', and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')],
            'apps': ['This website was made using Python and Flask.',
-                      'I also chose to make companion webapps for selected data projects.  As a CS teacher, I taught Flask, '
+                      'I also chose to make companion webapps for selected data projects.  '
+                      'As a CS teacher, I taught Flask and simple webapp design.'
                       ]
           }
 
