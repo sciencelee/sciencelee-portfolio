@@ -19,7 +19,7 @@ messages = {'portfolio': ['Featured below are some of my recent Data Science pro
                      'Each semester, I made a gaming project right alongside my students.',
                      'Below, are a few examples of my games.  Enjoy!'],
            'blog': ['As a teacher, I enjoy reading and writing tutorial blogs.',
-                    "I am a writer for the following publications on Medium: '{}', '{}', '{}', '{}', '{}', '{}',and '{}'".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')],
+                    "I am a writer for the following publications on Medium: {}, {}, {}, {}, {}, {},and {}".format('The Startup', 'Towards Data Science', 'Level Up Coding', 'Python in Plain English', 'CodeX', 'Data Driven Investor', 'Geek Culture')],
            'apps': ['This website was made using Python and Flask.',
                       'I also chose to make companion webapps for selected data projects.  '
                       'As a CS teacher, I taught Flask and simple webapp design.'
