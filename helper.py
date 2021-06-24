@@ -107,6 +107,12 @@ projects = [['Chicago Red Light Camera Accident Study',
                 'https://github.com/sciencelee/twitter-sentiment-evaluator',
                 'static/images/twitter_project.png',
                 '''Features Natural Language Processing with nltk, GloVe vectors, and a data set of labeled twitter reviews on Apple and Google Products'''],
+
+            ['College Recommendation System',
+             'https://github.com/sciencelee/college_api',
+             'static/images/college_project.png',
+             '''Flask built RESTful API and content based college recommendation system for college-bound students.'''],
+
             ]
 
 # each project [title, address, image, whet2lookfor]
