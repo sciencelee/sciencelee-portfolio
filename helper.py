@@ -144,6 +144,14 @@ apps = [
               I used a template and Jinja notation to display info fed in from a static Python file.
               Using Bootstrap and custom CSS, I wanted to give it a simple and consistent look that was easy to update.
               '''
+             ],
+
+            ['College Recommendation API and web app',
+              'https://www.collegereco.com/',
+              'static/images/college_reco.png',
+              '''I created a RESTful API to serve up results from a content based recommendation system allowing student users to 
+               find similar colleges to those they have already identified as targets.
+              '''
              ]
           ]
 
