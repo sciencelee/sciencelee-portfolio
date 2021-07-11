@@ -111,7 +111,7 @@ projects = [['Chicago Red Light Camera Accident Study',
             ['College Recommendation System',
              'https://github.com/sciencelee/college_api',
              'static/images/college_project.png',
-             '''Flask built RESTful API and content based college recommendation system for college-bound students.'''],
+             '''RESTful API and content based college recommendation system for college-bound students built in Flask.'''],
 
             ]
 
@@ -149,7 +149,7 @@ apps = [
             ['College Recommendation API and web app',
               'https://www.collegereco.com/',
               'static/images/college_reco.png',
-              '''I created a RESTful API to serve up results from a content based recommendation system allowing student users to 
+              '''Collaboratively created a RESTful API to serve up results from a content based recommendation system allowing student users to 
                find similar colleges to those they have already identified as targets.
               '''
              ]
