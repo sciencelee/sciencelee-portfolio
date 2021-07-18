@@ -210,7 +210,7 @@ skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, lev
             ["Software Engineering", [['Front End', 3, 'HTML, CSS, JavaScript'],  # language, level, years
                                      ['Frameworks', 2, 'Flask, Dash'],
                                      ['Database', 3, 'SQLite, MongoDB, PostgreSQL'],
-                                     ['Deployment', 2, 'Heroku, Python-Anywhere, Twilio'],
+                                     ['Deployment', 2, 'AWS', 'Heroku, Twilio'],
                                ]
              ],
 
