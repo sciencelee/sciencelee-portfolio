@@ -162,7 +162,7 @@ games = [['Blasteroids',
                 '''Fun "Asteroids" style shooter with a few twists.  
                 I'm proud of this one because it is made entirely with primitive shapes and trigonometry.
                 I aimed for fast processing and low resources on this game and was able to keep it at 60fps during gameplay.
-                The physics with the force shield make this a blast to play.  I love this game.  Takes about 10 seconds to load.
+                The physics with the force shield make this a blast to play.  I love this game.  Takes about 10 seconds to load with hosting service.
                  '''],
 
          ['Word Jumble',
@@ -172,7 +172,7 @@ games = [['Blasteroids',
           Spell as many words as you can in the time limit from the available letters.
           Earn bonus points and time for big scrabble score words.
           This project features a binary dictionary lookup, and a lot of debugging and tuning. 
-          Warning: can be addictive!  May take about 10 seconds to load.
+          Warning: can be addictive!  May take about 10 seconds to load with hosting service.
            '''],
 
     ['Missile Defense',
@@ -196,7 +196,7 @@ games = [['Blasteroids',
 
 
 about_title_text = "About title text"
-skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, level, years
+skills = [["Programming Languages", [['Python', 5, '7+ years'],  # language, level, years
                                      ['C++', 1, '7+ years'],
                                      ['JavaScript', 1, '2 years'],
                                      ['Java', 1, '2 years'],
@@ -208,7 +208,7 @@ skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, lev
              ],
 
             ["Software Engineering", [['Front End', 3, 'HTML, CSS, JavaScript'],  # language, level, years
-                                     ['Frameworks', 2, 'Flask, Dash'],
+                                     ['Frameworks', 3, 'Flask, Dash'],
                                      ['Database', 3, 'SQLite, MongoDB, PostgreSQL'],
                                      ['Deployment', 2, 'AWS', 'Heroku, Twilio'],
                                ]
@@ -216,7 +216,7 @@ skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, lev
 
             ["Machine Learning", [['Supervised', 4, 'Classification, Regression, sklearn, statsmodel'],  # language, level, years
                                      ['Unsupervised', 3, 'Clustering, PCA'],
-                                     ['Deep Learning', 2, 'CNN, RNN, TensorFlow', 'PyTorch'],
+                                     ['Deep Learning', 3, 'CNN, RNN, TensorFlow', 'PyTorch'],
                                ]
              ],
 
