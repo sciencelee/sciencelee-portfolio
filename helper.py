@@ -202,7 +202,7 @@ skills = [["Programming Languages", [['Python', 4, '7+ years'],  # language, lev
                                      ['Java', 1, '2 years'],
                                      ] ],
             ["Data Analysis", [['Data Wrangling', 4, 'Pandas, NumPy, SQL'],  # language, level, years
-                                     ['Data Visualization', 4, 'Matplotlib, Plotly, Seaborn, Folium'],
+                                     ['Data Visualization', 4, 'Tableau, Matplotlib, Plotly, Seaborn, Folium'],
                                      ['Statistics', 4, 'Inferential and Descriptive'],
                                ]
              ],
